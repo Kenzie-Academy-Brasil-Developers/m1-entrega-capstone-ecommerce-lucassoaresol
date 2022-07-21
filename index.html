@@ -17,10 +17,10 @@
                 <div class="logo">Weartake</div>
                 <nav>
                     <ul>
-                        <li><a href="#" class="ativo">Todos</a></li>
-                        <li><a href="#">Acessórios</a></li>
-                        <li><a href="#">Calçados</a></li>
-                        <li><a href="#">Camisetas</a></li>
+                        <li>Todos</li>
+                        <li>Acessórios</li>
+                        <li>Calçados</li>
+                        <li>Camisetas</a></li>
                     </ul>
                 </nav>
             </div>
@@ -30,121 +30,18 @@
         <div class="container">
             <article>
                 <section>
-                    <ul>
-                        <li>
-                            <figure>
-                                <img src="img/jaqueta.svg" alt="">
-                            </figure>
-                            <div class="texto">
-                                <div class="tag">Camisetas</div>
-                                <h1>Lightweight Jacket</h1>
-                                <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
-                                <span>R$ 100,00</span>
-                                <button>Adicionar ao carrinho</button>
-                            </div>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="img/jaqueta.svg" alt="">
-                            </figure>
-                            <div class="texto">
-                                <div class="tag">Camisetas</div>
-                                <h1>Lightweight Jacket</h1>
-                                <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
-                                <span>R$ 100,00</span>
-                                <button>Adicionar ao carrinho</button>
-                            </div>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="img/jaqueta.svg" alt="">
-                            </figure>
-                            <div class="texto">
-                                <div class="tag">Camisetas</div>
-                                <h1>Lightweight Jacket</h1>
-                                <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
-                                <span>R$ 100,00</span>
-                                <button>Adicionar ao carrinho</button>
-                            </div>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="img/jaqueta.svg" alt="">
-                            </figure>
-                            <div class="texto">
-                                <div class="tag">Camisetas</div>
-                                <h1>Lightweight Jacket</h1>
-                                <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
-                                <span>R$ 100,00</span>
-                                <button>Adicionar ao carrinho</button>
-                            </div>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="img/jaqueta.svg" alt="">
-                            </figure>
-                            <div class="texto">
-                                <div class="tag">Camisetas</div>
-                                <h1>Lightweight Jacket</h1>
-                                <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
-                                <span>R$ 100,00</span>
-                                <button>Adicionar ao carrinho</button>
-                            </div>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="img/jaqueta.svg" alt="">
-                            </figure>
-                            <div class="texto">
-                                <div class="tag">Camisetas</div>
-                                <h1>Lightweight Jacket</h1>
-                                <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
-                                <span>R$ 100,00</span>
-                                <button>Adicionar ao carrinho</button>
-                            </div>
-                        </li>
-                    </ul>
+                    <ul></ul>
                 </section>
                 <aside>
                     <div class="busca">
                         <input type="text" placeholder="Digite aqui sua pesquisa">
-                        <button>Pesquisar</button>
+                        <button id="pesquisa">Pesquisar</button>
                     </div>
                     <div class="carrinho">
                         <div class="topo">Carrinho de compras</div>
-                        <ul class="carrinho_ul">
-                            <li>
-                                <figure>
-                                    <img src="img/jaqueta.svg" alt="">
-                                </figure>
-                                <div class="texto">
-                                    <h2>Lightweight Jacket</h2>
-                                    <span>R$ 100.00</span>
-                                    <button>Remover produto</button>
-                                </div>
-                            </li>
-                            <li>
-                                <figure>
-                                    <img src="img/jaqueta.svg" alt="">
-                                </figure>
-                                <div class="texto">
-                                    <h2>Lightweight Jacket</h2>
-                                    <span>R$ 100.00</span>
-                                    <button>Remover produto</button>
-                                </div>
-                            </li>
-                            <li>
-                                <figure>
-                                    <img src="img/jaqueta.svg" alt="">
-                                </figure>
-                                <div class="texto">
-                                    <h2>Lightweight Jacket</h2>
-                                    <span>R$ 100.00</span>
-                                    <button>Remover produto</button>
-                                </div>
-                            </li>
-                        </ul>
-                        <ul class="fim">
+                        <div id="carrinho_vazio"><img src="img/carrinho_vazio.svg" alt="Carrinho Vazio"></div>
+                        <ul class="carrinho_ul none"></ul>
+                        <ul class="fim none">
                             <li>
                                 <div class="fim_esq">Quantidade:</div>
                                 <div class="fim_dir">3</div>
@@ -159,5 +56,7 @@
             </article>
         </div>
     </main>
+    <script src="js/database.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
